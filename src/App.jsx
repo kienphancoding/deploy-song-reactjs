@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect ,useState } from "react";
 import style from "./App.module.scss";
 import clsx from "clsx";
 import { songs } from "./Songs";
@@ -37,6 +37,9 @@ function App() {
       return [...prev];
     });
   };
+  useEffect(() => {
+    console.clear()
+  }, []);
 
   return (
     <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
