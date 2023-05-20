@@ -1,18 +1,18 @@
-// import NewJeans_Attention from "./songs/NewJeans_Attention.mp3";
+import NewJeans_Attention from "./songs/NewJeans_Attention.mp3";
 import NewJeans_Cookie from "./songs/NewJeans_Cookie.mp3";
 import NewJeans_Ditto from "./songs/NewJeans_Ditto.mp3";
 import NewJeans_HypeBoy from "./songs/NewJeans_HypeBoy.mp3";
 import NewJeans_OMG from "./songs/NewJeans_OMG.mp3";
 
 const songs = [
-  // {
-  //   name_song: "Attention",
-  //   name_singer: "NewJeans",
-  //   name_file: "NewJeans_Attention",
-  //   chorus_start: 62,
-  //   chorus_end: 81,
-  //   source: NewJeans_Attention,
-  // },
+  {
+    name_song: "Attention",
+    name_singer: "NewJeans",
+    name_file: "NewJeans_Attention",
+    chorus_start: 62,
+    chorus_end: 81,
+    source: NewJeans_Attention,
+  },
   {
     name_song: "Cookie",
     name_singer: "NewJeans",
