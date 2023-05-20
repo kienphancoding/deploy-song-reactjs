@@ -67,15 +67,6 @@ function App() {
               Nghệ sĩ
             </th>
             <th scope="col" className="px-6 py-3">
-              Thể loại
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Năm phát hành
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Quốc gia
-            </th>
-            <th scope="col" className="px-6 py-3">
               Tên file
             </th>
             <th scope="col" className="px-6 py-3">
@@ -103,9 +94,6 @@ function App() {
                   {item.name_song}
                 </th>
                 <td className="px-6 py-4">{item.name_singer}</td>
-                <td className="px-6 py-4">{item.category}</td>
-                <td className="px-6 py-4">{item.year}</td>
-                <td className="px-6 py-4">{item.country}</td>
                 <td className="px-6 py-4">{item.name_file}</td>
                 <td
                   className="px-6 py-4 cursor-pointer text-cyan-400"
