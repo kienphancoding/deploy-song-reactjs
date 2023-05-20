@@ -78,9 +78,9 @@ function Home() {
             <th scope="col" className="px-6 py-3">
               Chorus End
             </th>
-            {/* <th scope="col" className="px-6 py-3">
+            <th scope="col" className="px-6 py-3">
               Nhạc
-            </th> */}
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -105,11 +105,11 @@ function Home() {
                   {item.chorus_start}
                 </td>
                 <td className="px-6 py-4">{item.chorus_end}</td>
-                {/* <td className="px-6 py-4">
+                <td className="px-6 py-4">
                   <video controls name="media">
                     <source src={item.source} type="audio/mpeg" />
                   </video>
-                </td> */}
+                </td>
               </tr>
             );
           })}
