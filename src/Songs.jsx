@@ -11,7 +11,7 @@ const songs = [
     name_file: "NewJeans_Attention",
     chorus_start: 62,
     chorus_end: 81,
-    source: NewJeans_Attention,
+    // source: NewJeans_Attention,
   },
   {
     name_song: "Cookie",
@@ -19,7 +19,7 @@ const songs = [
     name_file: "NewJeans_Cookie",
     chorus_start: 49,
     chorus_end: 73,
-    source: NewJeans_Cookie,
+    // source: NewJeans_Cookie,
   },
   {
     name_song: "Ditto",
@@ -27,7 +27,7 @@ const songs = [
     name_file: "NewJeans_Ditto",
     chorus_start: 83,
     chorus_end: 114,
-    source: NewJeans_Ditto,
+    // source: NewJeans_Ditto,
   },
   {
     name_song: "Hype Boy",
@@ -35,7 +35,7 @@ const songs = [
     name_file: "NewJeans_HypeBoy",
     chorus_start: 52,
     chorus_end: 90,
-    source: NewJeans_HypeBoy,
+    // source: NewJeans_HypeBoy,
   },
   {
     name_song: "OMG",
@@ -43,7 +43,7 @@ const songs = [
     name_file: "NewJeans_OMG",
     chorus_start: 43,
     chorus_end: 75,
-    source: NewJeans_OMG,
+    // source: NewJeans_OMG,
   },
 ];
 
