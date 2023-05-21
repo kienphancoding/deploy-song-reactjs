@@ -3,6 +3,8 @@ import NewJeans_Cookie from "./songs/NewJeans_Cookie.mp3";
 import NewJeans_Ditto from "./songs/NewJeans_Ditto.mp3";
 import NewJeans_HypeBoy from "./songs/NewJeans_HypeBoy.mp3";
 import NewJeans_OMG from "./songs/NewJeans_OMG.mp3";
+import NewJeans_Hurt from "./songs/NewJeans_Hurt.mp3";
+import NewJeans_Zero from "./songs/NewJeans_Zero.mp3";
 
 const songs = [
   {
@@ -44,6 +46,22 @@ const songs = [
     chorus_start: 43,
     chorus_end: 75,
     source: NewJeans_OMG,
+  },
+  {
+    name_song: "Zero",
+    name_singer: "NewJeans",
+    name_file: "NewJeans_Zero",
+    chorus_start: 43,
+    chorus_end: 75,
+    source: NewJeans_Zero,
+  },
+  {
+    name_song: "Hurt",
+    name_singer: "NewJeans",
+    name_file: "NewJeans_Hurt",
+    chorus_start: 43,
+    chorus_end: 75,
+    source: NewJeans_Hurt,
   },
 ];
 
