@@ -17,10 +17,7 @@ function Home() {
     return newSongs;
   });
   let listPage = [];
-  const handleChorus = (index) => {
-    document.getElementsByTagName("video")[index].currentTime =
-      songs[index].chorus_start;
-  };
+
   for (let i = 1; i <= count_page; i++) {
     listPage = [...listPage, i];
   }
@@ -67,19 +64,10 @@ function Home() {
               Tên bài hát
             </th>
             <th scope="col" className="px-6 py-3">
-              Nghệ sĩ
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Tên file
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Chorus Start
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Chorus End
-            </th>
-            <th scope="col" className="px-6 py-3">
               Nhạc
+            </th>
+            <th scope="col" className="px-6 py-3">
+              Nghệ sĩ
             </th>
           </tr>
         </thead>
@@ -90,21 +78,12 @@ function Home() {
                 key={index}
                 className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
               >
-                <th
-                  scope="row"
-                  className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
-                >
+                <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  {item.name_singer}
+                </td>
+                <th scope="row" className="px-6 py-4">
                   {item.name_song}
                 </th>
-                <td className="px-6 py-4">{item.name_singer}</td>
-                <td className="px-6 py-4">{item.name_file}</td>
-                <td
-                  className="px-6 py-4 cursor-pointer text-cyan-400"
-                  onClick={() => handleChorus(index)}
-                >
-                  {item.chorus_start}
-                </td>
-                <td className="px-6 py-4">{item.chorus_end}</td>
                 <td className="px-6 py-4">
                   <video controls name="media">
                     <source src={item.source} type="audio/mpeg" />
